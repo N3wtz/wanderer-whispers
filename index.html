@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              volkhov: ["Volkhov"],
+              inter: ["Inter"],
+              poppins: ["Poppins"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <title>Document</title>
+  </head>
+
+  <body class="">
+    <!-- Navbar -->
+    <header class="sticky top-0 bg-violet-950 flex z-10 mx-auto">
+      <div class="container">
+        <div class="flex justify-center">
+          <nav>
+            <ul class="flex py-4 gap-6 text-white">
+              <li><a href="#" class="hover:text-slate-400">Home</a></li>
+              <li><a href="#" class="hover:text-slate-400">Explore</a></li>
+              <li><a href="#" class="hover:text-slate-400">About</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Hero -->
+    <div
+      class="h-screen bg-contain bg-fixed"
+      style="background-image: url(/img/frame1.jpg)"
+    >
+      <div class="text-center">
+        <h1 class="text-9xl font-volkhov font-bold pt-32 mb-2 text-pink-600">
+          Explore
+        </h1>
+        <h2 class="font-inter text-xl pt-10 text-white">
+          BALI'S MAGICAL PLACES
+        </h2>
+      </div>
+      <div class="mt-10 absolute left-1/2 right-1/2 ml-9" id="start">
+        <button class="learn-more">
+          <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+          </span>
+          <span class="button-text">Let's Start</span>
+        </button>
+      </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Kategori -->
+    <div class="h-screen">
+      <div class="container">
+        <div class="text-center">
+          <h3 class="pt-20 text-pink-600 font-inter font-bold text-xl">
+            CATEGORY
+          </h3>
+          <h4 class="pt-6 text-violet-950 font-volkhov font-semibold text-5xl">
+            What Do We Offer
+          </h4>
+        </div>
+
+        <div class="flex justify-evenly mx-40 mt-12">
+          <div
+            class="bg-white overflow-hidden h-60 w-60 rounded-3xl shadow-2xl"
+          >
+            <div class="bg-blue-500 h-1/2 w-full">
+              <img
+                src="https://source.unsplash.com/random"
+                alt=""
+                class="h-full w-full"
+              />
+            </div>
+            <div class="text-center font-poppins">
+              <p class="text-sm font-bold text-indigo-950 pt-4 pb-1">
+                Complete Information
+              </p>
+              <p class="text-xs px-6">
+                Our system provide complete information about the place for you,
+                so you would know.
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-white overflow-hidden h-60 w-60 rounded-3xl shadow-2xl"
+          >
+            <div class="bg-blue-500 h-1/2 w-full">
+              <img
+                src="https://source.unsplash.com/random"
+                alt=""
+                class="h-full w-full"
+              />
+            </div>
+            <div class="text-center font-poppins">
+              <p class="text-sm font-bold text-indigo-950 pt-4 pb-1">
+                Detailed Search
+              </p>
+              <p class="text-xs px-6">
+                Our system has many categories in its search place, so you can
+                search easily.
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-white overflow-hidden h-60 w-60 rounded-3xl shadow-2xl"
+          >
+            <div class="bg-blue-500 h-1/2 w-full">
+              <img
+                src="https://source.unsplash.com/random"
+                alt=""
+                class="h-full w-full"
+              />
+            </div>
+            <div class="text-center font-poppins">
+              <p class="text-sm font-bold text-indigo-950 pt-4 pb-1">
+                Many Kind of Place
+              </p>
+              <p class="text-xs px-6">
+                Our system has over 1,000 places in its database
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Katergori End -->
+
+    <!-- Referensi -->
+    <div class="h-96 bg-violet-950">
+      <div class="flex">
+        <div class="w-1/2 mx-12">
+          <h3 class="pt-12 text-pink-600 font-inter font-bold">REFERENCE</h3>
+          <h4 class="pt-3 text-white font-volkhov text-4xl">
+            WE GET OUR INFORMATIONS FROM
+          </h4>
+          <p class="pt-3 pb-12 text-white font-poppins font-light text-xs">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec
+            porttitor libero. Aliquam a porttitor orci, nec tincidunt elit.
+            Vestibulum et ante tortor. Praesent id tellus ut neque venenatis
+            lacinia quis nec tellus.
+          </p>
+        </div>
+        <div class="w-1/2 ml-16 justify-center flex flex-wrap mt-8 gap-6">
+          <div class="bg-slate-400 h-36 w-56"></div>
+          <div class="bg-slate-400 h-36 w-56"></div>
+          <div class="bg-slate-400 h-36 w-56"></div>
+          <div class="bg-slate-400 h-36 w-56"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Referensi End-->
+  </body>
+</html>
