@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              volkhov: ["Volkhov"],
+              inter: ["Inter"],
+              poppins: ["Poppins"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="sticky top-0 bg-violet-950 flex z-10 mx-auto">
+      <div class="container">
+        <div class="flex justify-center">
+          <nav>
+            <ul class="flex py-4 gap-6 text-white">
+              <li>
+                <a href="index.html" class="hover:text-slate-400">Home</a>
+              </li>
+              <li><a href="#" class="hover:text-slate-400">Explore</a></li>
+              <li><a href="#" class="hover:text-slate-400">About</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Search -->
+    <section>
+      <div class="bg-slate-100 mx-40 mt-4 mb-12 shadow-2xl">
+        <!-- Search -->
+        <!-- <div class="sticky top-12"> -->
+        <div class="w-full h-16 bg-slate-100">
+          <form action="">
+            <input
+              type="text"
+              name="search"
+              placeholder="Search Your Dreams"
+              class="ml-28 mt-4 w-3/4 px-3 py-2 font-semibold font-poppins text-center placeholder-slate-500 text-slate-600 rounded-lg shadow-2xl"
+            />
+          </form>
+        </div>
+        <!-- </div> -->
+
+        <!-- Sort -->
+        <!-- <div class="w-full h-16 bg-orange-200"></div> -->
+
+        <!-- Kolom -->
+        <div class="flex flex-wrap justify-evenly">
+          <!-- Produk -->
+          <div class="bg-slate-50 w-56 h-72 mt-4 mb-4 rounded-md">
+            <div
+              class="bg-slate-50 w-52 h-64 mx-auto mt-4 rounded-md overflow-hidden"
+            >
+              <div class="bg-blue-500 h-36 w-full">
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </div>
+              <div
+                class="bg-pink-600 w-full h-5 text-white text-xs pl-2 flex items-center"
+              >
+                View
+              </div>
+              <div class="px-2 py-1">
+                <p>Pantai Sanur</p>
+                <p class="text-xs">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et,
+                  quae.
+                </p>
+                <p class="text-xs">Rating</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-slate-50 w-56 h-72 mt-4 mb-4 rounded-md">
+            <div
+              class="bg-slate-50 w-52 h-64 mx-auto mt-4 rounded-md overflow-hidden"
+            >
+              <div class="bg-blue-500 h-36 w-full">
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </div>
+              <div
+                class="bg-pink-600 w-full h-5 text-white text-xs pl-2 flex items-center"
+              >
+                View
+              </div>
+              <div class="px-2 py-1">
+                <p>Pantai Sanur</p>
+                <p class="text-xs">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et,
+                  quae.
+                </p>
+                <p class="text-xs">Rating</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-slate-50 w-56 h-72 mt-4 mb-4 rounded-md">
+            <div
+              class="bg-slate-50 w-52 h-64 mx-auto mt-4 rounded-md overflow-hidden"
+            >
+              <div class="bg-blue-500 h-36 w-full">
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </div>
+              <div
+                class="bg-pink-600 w-full h-5 text-white text-xs pl-2 flex items-center"
+              >
+                View
+              </div>
+              <div class="px-2 py-1">
+                <p>Pantai Sanur</p>
+                <p class="text-xs">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et,
+                  quae.
+                </p>
+                <p class="text-xs">Rating</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-slate-50 w-56 h-72 mt-4 mb-4 rounded-md">
+            <div
+              class="bg-slate-50 w-52 h-64 mx-auto mt-4 rounded-md overflow-hidden"
+            >
+              <div class="bg-blue-500 h-36 w-full">
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </div>
+              <div
+                class="bg-pink-600 w-full h-5 text-white text-xs pl-2 flex items-center"
+              >
+                View
+              </div>
+              <div class="px-2 py-1">
+                <p>Pantai Sanur</p>
+                <p class="text-xs">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et,
+                  quae.
+                </p>
+                <p class="text-xs">Rating</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-slate-50 w-56 h-72 mt-4 mb-4 rounded-md">
+            <div
+              class="bg-slate-50 w-52 h-64 mx-auto mt-4 rounded-md overflow-hidden"
+            >
+              <div class="bg-blue-500 h-36 w-full">
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </div>
+              <div
+                class="bg-pink-600 w-full h-5 text-white text-xs pl-2 flex items-center"
+              >
+                View
+              </div>
+              <div class="px-2 py-1">
+                <p>Pantai Sanur</p>
+                <p class="text-xs">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et,
+                  quae.
+                </p>
+                <p class="text-xs">Rating</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-slate-50 w-56 h-72 mt-4 mb-4 rounded-md">
+            <div
+              class="bg-slate-50 w-52 h-64 mx-auto mt-4 rounded-md overflow-hidden"
+            >
+              <div class="bg-blue-500 h-36 w-full">
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </div>
+              <div
+                class="bg-pink-600 w-full h-5 text-white text-xs pl-2 flex items-center"
+              >
+                View
+              </div>
+              <div class="px-2 py-1">
+                <p>Pantai Sanur</p>
+                <p class="text-xs">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et,
+                  quae.
+                </p>
+                <p class="text-xs">Rating</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-slate-50 w-56 h-72 mt-4 mb-4 rounded-md">
+            <div
+              class="bg-slate-50 w-52 h-64 mx-auto mt-4 rounded-md overflow-hidden"
+            >
+              <div class="bg-blue-500 h-36 w-full">
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </div>
+              <div
+                class="bg-pink-600 w-full h-5 text-white text-xs pl-2 flex items-center"
+              >
+                View
+              </div>
+              <div class="px-2 py-1">
+                <p>Pantai Sanur</p>
+                <p class="text-xs">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et,
+                  quae.
+                </p>
+                <p class="text-xs">Rating</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-slate-50 w-56 h-72 mt-4 mb-4 rounded-md">
+            <div
+              class="bg-slate-50 w-52 h-64 mx-auto mt-4 rounded-md overflow-hidden"
+            >
+              <div class="bg-blue-500 h-36 w-full">
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </div>
+              <div
+                class="bg-pink-600 w-full h-5 text-white text-xs pl-2 flex items-center"
+              >
+                View
+              </div>
+              <div class="px-2 py-1">
+                <p>Pantai Sanur</p>
+                <p class="text-xs">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et,
+                  quae.
+                </p>
+                <p class="text-xs">Rating</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-slate-50 w-56 h-72 mt-4 mb-4 rounded-md">
+            <div
+              class="bg-slate-50 w-52 h-64 mx-auto mt-4 rounded-md overflow-hidden"
+            >
+              <div class="bg-blue-500 h-36 w-full">
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </div>
+              <div
+                class="bg-pink-600 w-full h-5 text-white text-xs pl-2 flex items-center"
+              >
+                View
+              </div>
+              <div class="px-2 py-1">
+                <p>Pantai Sanur</p>
+                <p class="text-xs">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et,
+                  quae.
+                </p>
+                <p class="text-xs">Rating</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Halaman -->
+        <div></div>
+      </div>
+    </section>
+    <!-- Search End -->
+
+    <!-- Bawah -->
+    <div class="text-center mb-12">
+      <h4 class="text-violet-950 font-volkhov text-4xl my-6">
+        Help Us To Find More Places
+      </h4>
+      <button
+        class="bg-pink-600 font-poppins text-white text-sm py-2 px-80 rounded-md shadow-sm"
+      >
+        ADD YOUR RECOMENDATION PLACE
+      </button>
+    </div>
+    <!-- Bawah End -->
+  </body>
+</html>
