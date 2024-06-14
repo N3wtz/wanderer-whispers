@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script> 
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              volkhov: ["Volkhov"],
+              inter: ["Inter"],
+              poppins: ["Poppins"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <title>Document</title>
+  </head>
+  <body class="bg-white">
+    <!-- Navbar -->
+    <header class="sticky top-0 bg-violet-950 flex z-10 mx-auto">
+      <div class="container">
+        <div class="flex justify-center">
+          <nav>
+            <ul class="flex py-4 gap-14 text-white text-lg"">
+              <li>
+                <a href="index.html" class="hover:text-slate-400">Home</a>
+              </li>
+              <li><a href="explore.html" class="hover:text-slate-400">Explore</a></li>
+              <li><a href="index.html#refx" class="hover:text-slate-400">About</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
+    <section>
+      <div class="bg-slate-100 mx-40 mt-6 mb-12 shadow-2xl">
+        <div>
+          <div class="bg-slate-200 h-16 flex items-center">
+            <span class="ml-6">Go Back</span>
+          </div>
+          <div class="bg-slate-400 h-96 mx-28 mt-8">
+            <img
+            src="/wanderer-whispers-main/img/pnt.png"
+            alt=""
+            class="h-full w-full object-cover"
+          /></div>
+          <h4 class="text-violet-950 font-volkhov font-semibold text-3xl mx-28 mt-4">
+            Pantai Sanur
+          </h4>
+        </div>
+
+        <!-- Deskripsi Start -->
+        <div class="mx-28 font-poppins my-4">
+          <div class="px-5 py-4">
+            <h6 class="font-semibold pb-1 text-black">Location Name</h6>
+            <input type="text" placeholder="Type the name of your place..." class="input-ghost w-full max-w-xs bg-inherit" style="color: black;" />
+          </div>
+          <div class="bg-slate-200 px-5 py-4">
+            <h6 class="font-semibold pb-1 text-black">Description</h6>
+            <input type="text" placeholder="Type your description..." class="input-ghost w-full max-w-xs bg-inherit" style="color: black;" />
+          </div>
+          <div class="px-5 py-4">
+            <h6 class="font-semibold pb-1 text-black">Location</h6>
+            <input type="text" placeholder="Type the location..." class="input-ghost w-full max-w-xs bg-inherit" style="color: black;" />
+          </div>
+          <div class="bg-slate-200 px-5 py-4">
+            <h6 class="font-semibold pb-1 text-black">Contact</h6>
+            <input type="text" placeholder="Type the contact..." class="input-ghost w-full max-w-xs bg-inherit" style="color: black;" />
+          </div>
+          <div class="px-5 py-4">
+            <h6 class="font-semibold pb-1 text-black">Price</h6>
+            <input type="text" placeholder="Type the enter price..." class="input-ghost w-full max-w-xs bg-inherit" style="color: black;" />
+          </div>
+          <div class="bg-slate-200 px-5 py-4">
+            <h6 class="font-semibold pb-1 text-black">Open Time</h6>
+            <input type="text" placeholder="Type the open time...." class="input-ghost w-full max-w-xs bg-inherit" style="color: black;" />
+          </div>
+        </div>
+        <!-- Deskripsi End -->
+
+        <!-- Galeri Start -->
+        <div class="mx-28">
+          <h4 class="text-violet-950 font-volkhov font-semibold text-3xl">
+            Add More Picture
+          </h4>
+
+
+          <button
+            class="bg-pink-600 text-white font-poppins text-sm py-2 w-full rounded-md shadow-sm mt-8 mb-12"
+          >
+            SUBMIT
+          </button>
+        </div>
+
+    </section>
+  </body>
+</html>
